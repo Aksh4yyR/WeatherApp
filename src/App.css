@@ -1,0 +1,116 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #83a4d4, #b6fbff);
+  min-height: 100vh;
+  font-family: 'Arial, sans-serif';
+  color: #333;
+  background-image: url(./assets/pic1.jpg);
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #ff6b6b;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.weather-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.weather-city {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.weather-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  margin-top: 20px;
+  transition: transform 0.3s;
+}
+
+.weather-card:hover {
+  transform: scale(1.05);
+}
+
+.weather-city {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #007bff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.weather-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.weather-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s;
+}
+
+.weather-item:hover {
+  background: #e8e8e8;
+}
+
+.weather-icon {
+  margin-right: 10px;
+  color: #ffcc00;
+  font-size: 1.5rem;
+}
+
